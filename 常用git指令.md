@@ -113,3 +113,16 @@ git branch -M main
 # 只需使用git push即可将本地分支的提交推送到远程仓库对应的分支
 git push -u origin main
 ```
+
+
+
+### 【Github】特殊的查找资源小技巧
+
+常用前缀后缀
+
+> 可能对前后端更为适用
+
++ 找百科大全 awesome xxx
++ 找例子 xxx sample
++ 找空项目架子 xxx starter / xxx boilerplate
++ 找教程 xxx tutorial
