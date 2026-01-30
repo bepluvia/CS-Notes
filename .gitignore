@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 # ========= 屏蔽.DS_Store文件 ========= #
 .DS_Store
 **/.DS_Store
 .DS_Store?
 # ==================================== #
+=======
+# ============= System File =============
+# 1. 忽略 Mac system files
+.DS_Store
+**/.DS_Store
+.DS_Store?
+__MACOSX/*
+>>>>>>> e0ac6da (添加.gitignore，忽略mac系统文件)
