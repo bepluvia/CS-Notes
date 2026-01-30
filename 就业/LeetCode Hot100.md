@@ -1727,7 +1727,6 @@ $$
 A←D←C←B←A
 $$
 
-
 <img src="./assets/1638557961-BSxFQQ-ccw-01-07.002.png" alt="ccw-01-07.002.png" style="zoom:67%;" />
 
 如上图所示，由于第 1 步 D→A 已经将 A 覆盖（导致 A 丢失），此丢失导致最后第 4 步 A→B 无法赋值。为解决此问题，考虑借助一个「辅助变量 tmp 」预先存储 A ，此时的旋转操作变为： 
@@ -3175,7 +3174,7 @@ public:
 };
 ```
 
-### [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
+### [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)🌟🌟
 
 #### 题目描述
 
@@ -4523,7 +4522,7 @@ private:
         int right_size = dfs(root->right);
         ans = max(ans, left_size + right_size + root->val);
 
-        return max(max(left_size, right_size) + root->val, 0);  // 这里可以与0取max是因为能够直接不选这个节点
+        return max(max(left_size, right_size) + root->val, 0);  // 这里可以与0取max是因为能够直接不选这个节点（有负数）
     }
 public:
     int maxPathSum(TreeNode* root) {
